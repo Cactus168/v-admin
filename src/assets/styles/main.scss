@@ -1,0 +1,63 @@
+.el-dialog:not(.is-fullscreen){
+	margin-top: 6vh !important;
+}
+
+.menu-list__input{
+    > .el-input__inner {
+    cursor: pointer;
+    }
+}
+.el-card__header {
+	padding: 15px 15px;
+}
+
+.el-table__expanded-cell[class*=cell] {
+    padding: 0px 0px 0px 47px;
+}
+
+table.gridtable {
+    font-size:12px;
+    color:#909399;
+    border-width: 1px;
+    border-color: #e6ebf5;
+    border-collapse: collapse;
+}
+table.gridtable th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #e6ebf5;
+    background-color: #dedede;
+}
+table.gridtable td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #e6ebf5;
+    background-color: #ffffff;
+}
+
+.list-group-striped > .list-group-item {
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.list-group {
+	padding-left: 0px;
+	list-style: none;
+}
+
+.list-group-item {
+	border-bottom: 1px solid #e7eaec;
+	border-top: 1px solid #e7eaec;
+	margin-bottom: -1px;
+	padding: 11px 0px;
+	font-size: 13px;
+}
+
+.pull-right {
+	float: right !important;
+}
