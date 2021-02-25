@@ -1,7 +1,7 @@
 # v-admin
 
 #### 介绍
-    是[vadmin](https://gitee.com/cactus_hxk/vadmin)项目的前端
+    是[vadmin](http://gitee.com/cactus_hxk/vadmin)项目的前端
 #### 软件架构
     vue
 #### 项目截图
