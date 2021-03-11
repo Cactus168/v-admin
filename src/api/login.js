@@ -7,7 +7,7 @@ export function login (username, password, uuid, code) {
 
 // 获取用户详细信息
 export function getInfo () {
-  return getRequest('/getInfo')
+  return getRequest('/login/getInfo')
 }
 
 // 退出方法
@@ -22,5 +22,5 @@ export function getCodeImg (uuid) {
 
 // 获取路由
 export const getRouters = () => {
-  return getRequest('/getRouters')
+  return getRequest('/login/getRouters')
 }
